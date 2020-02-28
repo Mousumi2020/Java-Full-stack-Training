@@ -1,0 +1,27 @@
+#container{
+    overflow:hidden;
+}
+#content{
+    overflow: hidden;
+    margin: 10px;
+
+}
+#main-area{
+    float: left;
+    width: 75%;
+    min-height: 600px;
+    box-sizing: border-box;
+    background-color: rgb(250, 159,159);
+}
+#right-bar{
+    border-left: 3px solid  brown(250, 250, 159);
+    width: 25%;
+    min-height: 600px;
+    box-sizing: border-box;
+    float: left;
+}
+#footer{
+    min-height: 100px;
+    width: 100%;
+    background-color: salmon;
+}

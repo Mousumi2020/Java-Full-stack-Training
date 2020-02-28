@@ -1,0 +1,29 @@
+<div *ngIf="!logStatus">
+    <table>
+        <tr>
+        <td>UserName</td>
+        <td><input type="text" [(ngModel)]="UserName"></td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password"[(ngModel)]="Password"></td>
+    </tr>
+
+    <tr>
+        <td colspan="2" align="center">
+            <button (click) ="logUser()" class="btn btn-danger">Login</button>
+        </td>
+    </tr>
+    
+    <tr>
+        <td colspan="2" align="center">
+            <a routerLink="/register">Not register yet!!</a></td>
+    </tr>
+    </table>
+</div>
+
+<div *ngIf="logStatus">
+    <h1>Users Page</h1>
+    <hr>
+    <h3>User management options will be here</h3>
+</div>
